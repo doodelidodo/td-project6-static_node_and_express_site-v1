@@ -1,0 +1,28 @@
+{
+  "name": "static_node_and_express_site-v1",
+  "version": "1.0.0",
+  "description": "A static portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doodelidodo/static_node_and_express_site-v1.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "pug"
+  ],
+  "author": "dominic meyer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doodelidodo/static_node_and_express_site-v1/issues"
+  },
+  "homepage": "https://github.com/doodelidodo/static_node_and_express_site-v1#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  }
+}
