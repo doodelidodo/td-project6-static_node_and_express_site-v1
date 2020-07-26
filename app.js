@@ -5,7 +5,6 @@ app.use('/static', express.static('public'));
 app.set('view engine', 'pug');
 
 const mainRoutes = require('./routes');
-
 app.use(mainRoutes);
 
 app.use((req, res, next) => {
@@ -17,7 +16,7 @@ app.use((req, res, next) => {
 app.use((err, req, res, next) => {
     res.locals.error = err;
     res.status(err.status);
-    res.render('/error', err);
+    res.render('error', err);
 });
 
 app.listen(3000, () => {

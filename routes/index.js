@@ -7,4 +7,4 @@ router.get('/', (req, res) => {
     res.render('index', {projects})
 });
 
-module.exports =  router;
+module.exports = router;

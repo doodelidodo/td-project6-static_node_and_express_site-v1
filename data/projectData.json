@@ -5,7 +5,7 @@
         "id": "What language are Express apps written in?",
         "project_name": "It starts with a \"J\"",
         "description": "JavaScript",
-        "technologies": "",
+        "technologies": ["Html", "CSS", "JavaScript"],
         "live_link": "",
         "github_link": "",
         "image_urls": ""
