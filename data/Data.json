@@ -2,16 +2,16 @@
   "data": {
     "projects": [
       {
-        "id": "What language are Express apps written in?",
-        "project_name": "It starts with a \"J\"",
-        "description": "JavaScript",
+        "id": "1",
+        "project_name": "Random Quote Generator",
+        "description": "This random quote generator shows a new quote every 10 seconds. The background color will also change. A new quote can also be called via button",
         "technologies": ["Html", "CSS", "JavaScript"],
-        "live_link": "",
-        "github_link": "",
+        "live_link": "https://doodelidodo.github.io/th-project-1-randomQuoteGenerator/",
+        "github_link": "https://github.com/doodelidodo/th-project-1-randomQuoteGenerator",
         "image_urls": ""
       },
       {
-        "id": "What language are Express apps written in?",
+        "id": "2",
         "project_name": "It starts with a \"J\"",
         "description": "JavaScript",
         "technologies": "",
