@@ -2,67 +2,49 @@
   "data": {
     "projects": [
       {
-        "id": "1",
+        "id": "0",
         "project_name": "Random Quote Generator",
         "description": "This random quote generator shows a new quote every 10 seconds. The background color will also change. A new quote can also be called via button",
         "technologies": ["Html", "CSS", "JavaScript"],
         "live_link": "https://doodelidodo.github.io/th-project-1-randomQuoteGenerator/",
         "github_link": "https://github.com/doodelidodo/th-project-1-randomQuoteGenerator",
-        "image_urls": ""
+        "image_urls": "project1"
+      },
+      {
+        "id": "1",
+        "project_name": "List with Pagination and Filtering",
+        "description": "The object was to add a pagination to a user list with filter possibility. Each page shoes 10 user. The filter acts instance when a key is pressed.",
+        "technologies": ["Html", "CSS", "JavaScript"],
+        "live_link": "https://doodelidodo.github.io/td-project2-list_pagination_and_filtering/",
+        "github_link": "https://github.com/doodelidodo/td-project2-list_pagination_and_filtering",
+        "image_urls": "project2"
       },
       {
         "id": "2",
-        "project_name": "It starts with a \"J\"",
-        "description": "JavaScript",
-        "technologies": "",
-        "live_link": "",
-        "github_link": "",
-        "image_urls": ""
+        "project_name": "Interactive Form",
+        "description": "This project shows a form with the validation via jQuery. All required fields have a live validation with a message, if the input is not valid.",
+        "technologies": ["Html", "CSS", "JavaScript, jQuery"],
+        "live_link": "https://doodelidodo.github.io/td-project3-interactive_form/",
+        "github_link": "https://github.com/doodelidodo/td-project3-interactive_form",
+        "image_urls": "project3"
       },
       {
-        "id": "What language are Express apps written in?",
-        "project_name": "It starts with a \"J\"",
-        "description": "JavaScript",
-        "technologies": "",
-        "live_link": "",
-        "github_link": "",
-        "image_urls": ""
+        "id": "3",
+        "project_name": "OOP Phrase Hunter Game",
+        "description": "This is a JavaScript game with the object to learn object oriented programming. The user can start the game and guess a phrase via the keyboard or the buttons on the screen.",
+        "technologies": ["Html", "CSS", "JavaScript, jQuery"],
+        "live_link": "https://doodelidodo.github.io/td-project4-oop_game/",
+        "github_link": "https://github.com/doodelidodo/td-project4-oop_game",
+        "image_urls": "project4"
       },
       {
-        "id": "What language are Express apps written in?",
-        "project_name": "It starts with a \"J\"",
-        "description": "JavaScript",
-        "technologies": "",
-        "live_link": "",
-        "github_link": "",
-        "image_urls": ""
-      },
-      {
-        "id": "What language are Express apps written in?",
-        "project_name": "It starts with a \"J\"",
-        "description": "JavaScript",
-        "technologies": "",
-        "live_link": "",
-        "github_link": "",
-        "image_urls": ""
-      },
-      {
-        "id": "What language are Express apps written in?",
-        "project_name": "It starts with a \"J\"",
-        "description": "JavaScript",
-        "technologies": "",
-        "live_link": "",
-        "github_link": "",
-        "image_urls": ""
-      },
-      {
-        "id": "What language are Express apps written in?",
-        "project_name": "It starts with a \"J\"",
-        "description": "JavaScript",
-        "technologies": "",
-        "live_link": "",
-        "github_link": "",
-        "image_urls": ""
+        "id": "4",
+        "project_name": "Public API Requets",
+        "description": "The task was to load 12 users via https://randomuser.me API and generate UserCards from them. If you click on a user, further information is displayed in a modal. In the modal you can switch the users with the back and forth buttons. The search field let you search for a specific user.",
+        "technologies": ["Html", "CSS", "JavaScript, jQuery"],
+        "live_link": "https://doodelidodo.github.io/td-project5-public_api_requests/",
+        "github_link": "https://github.com/doodelidodo/td-project5-public_api_requests",
+        "image_urls": "project5"
       }
     ]
   }
