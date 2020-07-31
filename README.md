@@ -4,8 +4,10 @@
  
 #### To install the application:
  - Clone Repo
+ - open terminal and navigate to the app
  - npm install
  - npm start
+ - open browser: localhost:3000
  
 #### CSS Changes:
 
