@@ -1,6 +1,12 @@
 extends layout.pug
 
 block content
-    h1= error.message
-    h2= error.status
-    pre= error.stack
+    nav.grid-container.portfolio-breadcrumb
+        a(href='/') ← Back
+
+    .error-page
+        h1
+            i.fas.fa-skull-crossbones
+            |  Oopsy Daisy, something went wrong: #{error.message}
+        h2 Status Code: #{error.status}
+        pre= error.stack

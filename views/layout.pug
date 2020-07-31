@@ -8,24 +8,26 @@ html(class="no-js" lang="en" dir="ltr")
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
     link(rel='stylesheet', href='/static/css/foundation.css')
     link(rel='stylesheet', href='/static/css/style.css')
+    link(href='https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display&family=Roboto:wght@500;700&display=swap', rel='stylesheet')
+    link(rel='stylesheet', href='/static/css/custom-style.css')
   body
     #my-info.off-canvas.position-left.reveal-for-large.portfolio-me(data-off-canvas='')
       .grid-y.grid-padding-x(style='height: 100%;')
         block sidebar
           br
           .cell.shrink
-            img.thumbnail(src='/static/img/profile_img.png')
+            img.thumbnail(src='/static/img/me.jpeg')
           .cell.auto
 
             //- Add your name here.
-            h5 Dominic Meyer
+            div.name Dominic Meyer
 
             //- I'm a Full Stack Software-Developer and living in Switzerland! I always look for opportunities to educate myself
             p.text-light
               | I'm a Full Stack Software-Developer and living in Switzerland! I always look for opportunities to educate myself
 
             //- Add about page route to the href below. 
-            a(href='/about') Learn More →
+            a.about-link(href='/about') Learn More →
 
     .off-canvas-content(data-off-canvas-content='')
       .title-bar.hide-for-large
@@ -42,3 +44,5 @@ html(class="no-js" lang="en" dir="ltr")
   script(src='/static/js/vendor/what-input.js')
   script(src='/static/js/vendor/foundation.js')
   script(src='/static/js/scripts.js')
+  script(src='https://kit.fontawesome.com/8898ab9800.js', crossorigin='anonymous')
+

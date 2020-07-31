@@ -1,0 +1,69 @@
+/*font-family: 'Lobster', cursive;*/
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Roboto', sans-serif;*/
+
+body {
+    background-color: #DAECF3;
+}
+h1, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+a.link-icon {
+    font-size: 30px;
+    color: #022d41;
+    transition: color 0.2s ease-out;
+}
+
+a.link-icon:hover {
+    color: #1aa6b7;
+}
+
+.link-icon:first-of-type {
+    padding-right: 15px;
+}
+
+a.about-link {
+    color: #fe424d;
+    transition: color 0.2s ease-out;
+}
+
+a.about-link:hover {
+    color: #daecf3;
+}
+
+.name {
+    font-family: 'Lobster', cursive;
+    font-size: 28px;
+    padding-bottom: 12px;
+    color: #fe424d;
+}
+
+.about-name {
+    font-family: 'Lobster', cursive;
+    color: #fe424d;
+}
+
+.main-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+}
+
+.fa-ul {
+    margin-left: 1.25rem !important;
+}
+
+.error-page {
+    margin: 50px;
+}
+
+.fa-skull-crossbones {
+    padding-right: 12px;
+    color: #fe424d;
+}
+
+
+
+
+
+

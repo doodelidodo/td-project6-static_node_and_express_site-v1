@@ -8,7 +8,7 @@ block content
       .cell.small-6.medium-9.large-9
 
         //- Add your name.
-        h1 Dominic Meyer
+        h1.about-name Dominic Meyer
 
         //- Feel free personalize the title below
         p.lead.text-light
@@ -25,15 +25,44 @@ block content
         h6 Skills
 
         //- Replace the text in the li tags below with your own skills.  At this point, you should be able to list at least ten skills.
-        ul
-          li JavaScript / jQuery
-          li node.js / Express
-          li Html, CSS, SCSS
-          li Bootstrap 4
-          li JAVA
-          li SQL
-          li Requirement Engineering
-          li Scrum
+        ul.fa-ul
+          li
+            span.fa-li
+              i.fas.fa-tools
+            | JavaScript / jQuery
+          li
+            span.fa-li
+              i.fas.fa-tools
+            | node.js / Express
+          li
+            span.fa-li
+              i.fas.fa-tools
+            | Html, CSS, SCSS
+          li
+            span.fa-li
+              i.fas.fa-tools
+            | Bootstrap 4
+          li
+            span.fa-li
+              i.fas.fa-tools
+            | Bootstrap 4
+          li
+            span.fa-li
+              i.fas.fa-tools
+            | JAVA
+          li
+            span.fa-li
+              i.fas.fa-tools
+            | SQL
+          li
+            span.fa-li
+              i.fas.fa-tools
+            | Requirement Engineering
+          li
+            span.fa-li
+              i.fas.fa-tools
+            | Scrum
+
         h6 Contact Info
 
         //- Add your own contact info
@@ -42,8 +71,10 @@ block content
           li dominic.meyer@me.com
 
         //- Add URLs to the hrefs below to link to your social media accounts.
-        a.button.expanded(href='https://www.linkedin.com/in/dominic-meyer-112b00141/') LinkedIn
-        a.button.expanded(href='https://github.com/doodelidodo') GitHub
+        a.link-icon(href='https://www.linkedin.com/in/dominic-meyer-112b00141/', target="_blank")
+          i.fab.fa-linkedin
+        a.link-icon(href='https://github.com/doodelidodo', target="_blank")
+          i.fab.fa-github
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back
   
